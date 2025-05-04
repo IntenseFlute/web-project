@@ -1,3 +1,6 @@
+CHẠY LỆNH NÀY ĐỂ CHẠY DASHBOARDnpm install lucide-react
+
+
 # Sau khi clone về tại folder làm việc chính dùng lệnh "npm i" để update lại thư viện rồi "npm run dev"
 tham khảo thêm cách code tại đây: vid 1 tiếng (sơ lược cho một project): https://youtu.be/G6D9cBaLViA?si=-LdaCuXPm6JMUurJ
 
