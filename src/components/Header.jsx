@@ -23,6 +23,7 @@ const Header = () => {
         <Link to="/products" className="text-black hover:text-lime-500">Sản phẩm</Link>
         <Link to="/contact" className="text-black hover:text-lime-500">Liên hệ</Link>
         <Link to="/blog" className="text-black hover:text-lime-500">Blog</Link>
+        <Link to="/admin" className="text-black">Admin</Link>
       </nav>
 
       {/* User & Cart (Luôn hiển thị) */}
@@ -53,6 +54,7 @@ const Header = () => {
             <Link to="/products" className="text-black hover:text-lime-500" onClick={toggleMobileMenu}>Sản phẩm</Link>
             <Link to="/contact" className="text-black hover:text-lime-500" onClick={toggleMobileMenu}>Liên hệ</Link>
             <Link to="/blog" className="text-black hover:text-lime-500" onClick={toggleMobileMenu}>Blog</Link>
+            <Link to="/admin" className="text-black">Admin</Link>
              {/* Thêm nút Đăng nhập/Giỏ hàng vào đây cho mobile nếu cần */}
              <button className="flex items-center space-x-2 mt-4">
                <span className="text-black">Đ. nhập</span>
